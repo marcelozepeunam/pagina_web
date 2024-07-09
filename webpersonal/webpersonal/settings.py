@@ -12,9 +12,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'x-h&qoq4&j#u%+h+$84d_rnx!rbpa#40xnemb7z547!!c1a6xu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True #Development
+DEBUG = False #Deployment
 
 ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['marcelodeveloper.com', 'www.marcelodeveloper.com', '127.0.0.1']
+
 
 
 # Application definition
