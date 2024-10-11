@@ -87,6 +87,10 @@ celerybeat-schedule
 venv/
 ENV/
 
+# Ignorar la base de datos SQLite
+db.sqlite3
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
