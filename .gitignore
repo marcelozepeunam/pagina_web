@@ -103,3 +103,11 @@ db.sqlite3
 
 # mypy
 .mypy_cache/
+
+# Ignorar base de datos
+db.sqlite3
+# Ignorar archivos de medios
+media/
+# Ignorar archivos estáticos (si prefieres no guardarlos en el repositorio)
+static/
+
